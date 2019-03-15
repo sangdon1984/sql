@@ -11,6 +11,9 @@
 # 192.168.41.186 내컴퓨터
 # 192.168.50.215 선생님
 
+# 데이터베이스 확인
+# show databases;
+
 # 데이터베이스 생성
 # create database DB명 옵션;
 # create schema DB명 옵션;
@@ -32,6 +35,7 @@
 # create user '사용자id'@'접속주소' identified by '비밀번호';
 
 # 사용자 확인
+# use mysql;
 # select host, user, authentication_string from user;
 
 # 사용자 삭제
